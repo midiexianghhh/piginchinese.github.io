@@ -86,11 +86,20 @@
             margin-top: 20px;
         }
     </style>
+    <!-- Google tag (gtag.js) -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-PE7M1ELC1X"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'G-PE7M1ELC1X');
+    </script>
 </head>
 <body>
     <div class="container">
         <h1>Chinese Sound Reading Marker</h1>
-        <textarea id="inputText" rows="6" placeholder="Please paste your Chinese here..."></textarea><br>
+        <textarea id="inputText" rows="6" placeholder="Please paste your Chinese..."></textarea><br>
         <button id="generateBtn">Generate sound marker</button>
         <div id="output"></div>
     </div>
